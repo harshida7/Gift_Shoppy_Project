@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GiftShoppy_Project" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+       <!-- <item name="android:windowDisablePreview">true</item>-->
+
+
+        <item name="android:fontFamily">@font/signika_regular</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:textColor">#990011</item>
+        <item name="android:editTextColor">#990011</item>
+        <item name="android:textColorHint">#990011</item>
+        <item name="titleTextColor">#FFFFFF</item>
+        <item name="strokeColor">#990011</item>
+        <item name="searchIcon">@drawable/baseline_search_24</item>
+        <item name="cardBackgroundColor">#990011</item>
+
+    </style>
+
+    <style name="Theme.GiftShoppy_Project" parent="Base.Theme.GiftShoppy_Project" />
+</resources>

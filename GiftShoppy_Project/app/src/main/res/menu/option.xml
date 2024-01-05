@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/search1"
+        android:icon="@drawable/baseline_search_24"
+        android:title="Search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <item
+        android:id="@+id/wishlist"
+        android:icon="@drawable/baseline_favorite_24"
+        android:title="Wishlist"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/cart"
+        android:icon="@drawable/baseline_favorite_24"
+        android:title="Shopping Cart"
+        app:showAsAction="ifRoom" />
+
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@drawable/baseline_more_vert_24"/>
+
+</menu>
