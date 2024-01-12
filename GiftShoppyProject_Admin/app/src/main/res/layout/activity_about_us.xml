@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        tools:context=".Activity.AboutUsActivity">
+
+        <TextView
+            android:id="@+id/aboutus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#8d2d5d"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="About Us"/>
+
+        <TextView
+            android:id="@+id/txtAboutUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:textSize="18dp"
+            android:fontFamily="@font/signika_light"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="The project works with admin, customers, gift shop and gift items with different varieties. The admin is that the main user who will monitor the activity of every user. The admin will have the ability to make new records delete the prevailing records or update the present records. Any variety of customer who wants to be the a part of the system will must register. It is a awfully simple process. They just should provide their profile information. All the data are kept private and confidential. Once the shoppers are matched with the tables stored into the database customers can access the account. When customer choose the most effective item and prepared to order it online, just within the cart the shoppers has complete the ordering process. Customer must provide the address of the gift to be delivered and the payment method -net banking, debit or mastercard."
+            />
+
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:backgroundTint="#1e1e1e"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textColor="#8d2d5d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terms Of Use"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:textColor="#8d2d5d"
+            android:backgroundTint="#1e1e1e"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancellation Policy"/>
+        <Button
+            android:id="@+id/btn3"
+            android:textColor="@color/white"
+            android:backgroundTint="#1e1e1e"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Privacy Policy"/>
+        <Button
+            android:id="@+id/btn4"
+            android:backgroundTint="#1e1e1e"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Refund Policy"/>
+    </LinearLayout>
+</ScrollView>

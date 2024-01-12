@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "289773973868",
+    "project_id": "giftshoppy-project",
+    "storage_bucket": "giftshoppy-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289773973868:android:efb9808567512ce80f4349",
+        "android_client_info": {
+          "package_name": "com.example.giftshoppy_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4WELXtUD4YFfa6eSJ09xnrOzM5g5On7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289773973868:android:167fc830f4af62d00f4349",
+        "android_client_info": {
+          "package_name": "com.example.giftshoppyproject_admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4WELXtUD4YFfa6eSJ09xnrOzM5g5On7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

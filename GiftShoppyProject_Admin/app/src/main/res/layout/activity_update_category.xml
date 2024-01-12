@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearRegister1"
+    android:orientation="vertical"
+    android:background="@color/black"
+
+    tools:context=".Activity.UpdateCategoryActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool1"
+        android:background="#8d2d5d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:title="SIGN UP"/>
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/imgCategoryUpdate"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/addcategory"/>
+
+
+    <EditText
+        android:id="@+id/edtCategoryNameUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Category Name"
+        android:textColor="#8d2d5d"
+        android:textColorHint="#8d2d5d"
+        android:layout_margin="25dp" />
+
+
+
+
+    <Button
+        android:id="@+id/btnAddCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Category"
+        android:backgroundTint="#8d2d5d"
+
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>

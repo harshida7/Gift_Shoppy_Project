@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".Activity.AddUserActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool1"
+        android:background="#8d2d5d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="ADD USER">
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+            <EditText
+                android:id="@+id/edtUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="User Name"
+                android:textColor="#8d2d5d"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textColorHint="#8d2d5d"/>
+
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textColor="#8d2d5d"
+                android:textColorHint="#8d2d5d" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/edtPhone"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:hint="Enter Phone No."
+                    android:textColor="#8d2d5d"
+                    android:textColorHint="#8d2d5d"/>
+
+                <ImageView
+                    android:id="@+id/btn_verify"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/baseline_verified_user_24"
+                    android:layout_weight="1"
+                    android:textColor="#8d2d5d"
+                    android:textColorHint="#8d2d5d"/>
+
+            </LinearLayout>
+            <EditText
+                android:id="@+id/edtOTP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:visibility="invisible"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:hint="Enter OTP"
+                android:textColor="#8d2d5d"
+                android:textColorHint="#8d2d5d"/>
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textColor="#8d2d5d"
+                android:textColorHint="#8d2d5d"/>
+
+
+
+
+    <Button
+        android:id="@+id/btnAddUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add User"
+        android:backgroundTint="#8d2d5d"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
